@@ -1,0 +1,4 @@
+﻿displayName = 远海伯爵
+author = 血堂在何方
+version = 0.1
+modReferences = SubworldLibrary

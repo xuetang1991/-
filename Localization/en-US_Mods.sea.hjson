@@ -1,0 +1,146 @@
+﻿Biomes: {
+	DustSeaBiome: {
+		DisplayName: Dust Sea
+		TownNPCDialogueName: the Dust Sea
+	}
+}
+
+Items: {
+	GrayTrailItem: {
+		DisplayName: Gray Trail
+		Tooltip: Wine drowns me again and again, when will it numb my sorrow~
+	}
+
+	DustSandItem: {
+		DisplayName: Dust Sand
+		Tooltip: A block dug from the Dust Sea
+	}
+
+	JinlianJellyfishItem: {
+		DisplayName: Little Jellyfish
+		Tooltip:
+			'''
+			When will I ever collect seven little jellyfish?
+			[c/919191:Set the recall key under Controls - Keybinds.]
+			'''
+	}
+
+	EnterFarSeaItem: {
+		DisplayName: Enter Far Sea
+		Tooltip: Enters the Far Sea subworld
+	}
+
+	FluorescentBaitItem: {
+		DisplayName: Fluorescent Bait
+		Tooltip: Summons the Far Sea Earl
+	}
+}
+
+NPCs: {
+	FarSeaEarlNPC.DisplayName: Far Sea Earl
+
+	JinlianNPC: {
+		DisplayName: Jin Lian
+		TownNPCDialogueName: Jin Lian
+		ButtonFollow: Follow
+		ButtonStopFollow: Stop Following
+		GiftLine1: Finding me must be a real hassle, running all over the world.
+		GiftLine2: Here, take this little jellyfish. Pat it whenever you need me.
+		GiftCaption: Item received
+		InventoryFull: Inventory is full, the item was not picked up.
+		ButtonRecall: Recall
+		ButtonClose: Close
+		IntroWho: Who are you?
+		IntroLineIdentity: Let me introduce myself. I am the Far Sea Earl, though you may call me Jinlian.
+		UnknownName: ???
+		ButtonHeal: Heal
+		ButtonShop: Shop
+		ShopTitle: Wines of the Dust Sea
+		ShopCategoryAlcohol: Wines
+		ShopNotEnoughMoney: You cannot afford that.
+		ShopBought: Item purchased!
+		ShopUnitGold: gold
+		ShopUnitSilver: silver
+		ShopUnitCopper: copper
+		FirstReviveLine1: You can actually command the dust tree's life force?
+		FirstReviveLine2: Then you may be blessed. Do you feel anything?
+		FirstReviveOptionBlessing: What blessing? How would I know?
+		FirstReviveLine3: The old tree seems rather fond of you. Did you not feel warm standing beside it?
+		FirstReviveLine4: And your wounds will heal faster as well.
+		FirstReviveLine5: You really are something, you.
+		HealLine1: A miracle worker!
+		HealLine2: So warm.
+		HealLine3: I should not get hurt again.
+		HealLine4: Good as new!
+		HealLine5: Just a scratch.
+		HealLine6: You are getting good at this.
+		ButtonRevive: Revive
+		DeathTitle: Jinlian is dead
+		RevivePrompt: My soul is still drifting over the dust sea.
+		ReviveLine1: The underworld would not take me. My task is unfinished. Now that I live, this debt is not settled.
+		ReviveHint: The dust tree's power wove a body and welcomed the wandering soul.
+		RecallPrompt: What do you need from me?
+		RecallReady: I am in position.
+		RecallMissing: I have not arrived in this world yet.
+		ChatTextFollow: Let's go.
+		ChatTextStopFollow: All right.
+		ChatTextDaily1: When we investigate, use my title~
+		ChatTextDaily2: Are you watching as well?
+		ChatTextDaily3: In the name of the ocean, I command you... just kidding~
+		ChatTextDaily4: You will not even call me Earl once?
+		ChatTextDaily5: Waves are content on their own, why bind them to life?
+		ChatTextDaily6: The ocean is higher than the sky, you know that, right?
+		ChatTextDaily7: The only problem is... how the other eleven get a cowboy hat too.
+		IntroLine1: So you came after all...
+		IntroAsk: Is there something you need?
+		IntroLine2: The ocean holds much life, and it should.
+		IntroLine3: But anything overdone turns against itself. Too much vitality has broken the balance of the ocean.
+		IntroLine4: Will you help me investigate this? This surge of ocean vitality.
+		IntroOptionAgree: Fine. As for what happened before... let us call it even.
+		IntroOptionReward: What is in it for me?
+		IntroOptionBlame: You are asking for my help, so why did you attack me?
+		Continue: Continue
+		Accept: All right, you have my word.
+		IntroAnswerAgree: Truly? I cannot thank you enough!
+		IntroAnswerReward1: Surely you would not want this land overgrown with trees that hit people.
+		IntroAnswerReward2: I will give you a fitting reward afterwards.
+		IntroAnswerBlame1: Did you not summon me?
+		IntroAnswerBlame2: That was... ah... a test. You proved you are strong, did you not!
+		IntroAnswerBlame3: I will reward you.
+
+		TownNPCMood: {
+			Content: I'm quite content.
+			NoHome: I hate not having a home.
+			FarFromHome: I'm too far from home.
+			LoveSpace: I love how spacious it is here.
+			DislikeCrowded: I don't like how crowded it is.
+			HateCrowded: I hate how crowded it is.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+}
+
+Projectiles: {
+	FarSeaGridProjectile.DisplayName: Far Sea Grid
+	FarSeaHatProjectile.DisplayName: Far Sea Hat
+	FarSeaJellyfishProjectile.DisplayName: Small Jellyfish
+	JinlianJellyfishProjectile.DisplayName: Jellyfish
+	JinlianReviveVisualProjectile.DisplayName: Jinlian Silhouette
+	FarSeaHatLaserProjectile.DisplayName: Far Sea Hat Laser Projectile
+}
+
+Tiles.DustSandTile.MapEntry: Dust Sand
+Keybinds.RecallJinlian.DisplayName: Return Jinlian
+
+Buffs: {
+	CompanionBuff: {
+		DisplayName: Stand Together
+		Description: Jinlian shares her defense and healing with you, and takes the blows meant for you.
+	}
+
+	GrayTrailBuff: {
+		DisplayName: Traces
+		Description: Your strikes leave random debuffs on the enemies you hit
+	}
+}

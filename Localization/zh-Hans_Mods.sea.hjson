@@ -1,0 +1,146 @@
+﻿Biomes: {
+	DustSeaBiome: {
+		DisplayName: 浊海
+		TownNPCDialogueName: 浊海
+	}
+}
+
+Items: {
+	GrayTrailItem: {
+		DisplayName: 灰色轨迹
+		Tooltip: 酒一再沉溺，何时麻醉我抑郁~
+	}
+
+	DustSandItem: {
+		DisplayName: 浊沙块
+		Tooltip: 从浊海挖出的方块
+	}
+
+	JinlianJellyfishItem: {
+		DisplayName: 小水母
+		Tooltip:
+			'''
+			什么时候能集齐七只小水母呢？
+			[c/919191:请前往控件处设置按键]
+			'''
+	}
+
+	EnterFarSeaItem: {
+		DisplayName: 远航海图
+		Tooltip: 使用后进入远海子世界
+	}
+
+	FluorescentBaitItem: {
+		DisplayName: 荧光饵料
+		Tooltip: 使用后召唤远海伯爵
+	}
+}
+
+NPCs: {
+	FarSeaEarlNPC.DisplayName: 远海伯爵
+
+	JinlianNPC: {
+		DisplayName: 堇涟
+		TownNPCDialogueName: 堇涟
+		ButtonFollow: 跟随
+		ButtonStopFollow: 停止跟随
+		GiftLine1: 你要找我也蛮麻烦的吧，需要满世界跑
+		GiftLine2: 这样，给你一只小水母，要找我就拍拍它
+		GiftCaption: 获得了物品
+		InventoryFull: 背包已满，物品未拾取
+		ButtonRecall: 召回
+		ButtonClose: 关闭
+		IntroWho: 你是谁？
+		IntroLineIdentity: 自我介绍一下，我是远海伯爵，你也可以叫我堇涟
+		UnknownName: ？？？
+		ButtonHeal: 治疗
+		ButtonShop: 商店
+		ShopTitle: 浊海酒馆
+		ShopCategoryAlcohol: 酒类
+		ShopNotEnoughMoney: 钱不够
+		ShopBought: 购买成功！
+		ShopUnitGold: 金
+		ShopUnitSilver: 银
+		ShopUnitCopper: 铜
+		FirstReviveLine1: 你居然能操控浊树的生命力？
+		FirstReviveLine2: 那你可能是受到赐福了，有感觉吗？
+		FirstReviveOptionBlessing: 什么赐福？我怎么不知道
+		FirstReviveLine3: 看来那颗老树还蛮喜欢你的嘛，你之前在它旁边的时候没感觉到身子暖暖的吗？
+		FirstReviveLine4: 而且你的伤也会恢复的更快
+		FirstReviveLine5: 还真是厉害啊，你这人
+		HealLine1: 神医呐
+		HealLine2: 真暖和
+		HealLine3: 应该不会再受伤了吧
+		HealLine4: 又是一条好汉
+		HealLine5: 小伤小伤
+		HealLine6: 很熟练嘛
+		ButtonRevive: 复活
+		DeathTitle: 堇涟死亡
+		RevivePrompt: 我的灵魂还在浊海之上游荡。
+		ReviveLine1: 阎王不收，大事未了。既然没死，这账就没算完
+		ReviveHint: 浊树的能量捏造出肉体，接纳了游荡的灵魂
+		RecallPrompt: 需要我做什么？
+		RecallReady: 我已就位
+		RecallMissing: 我还没来到这个世界。
+		ChatTextFollow: 走吧
+		ChatTextStopFollow: 好
+		ChatTextDaily1: 调查的时候要称职务~
+		ChatTextDaily2: 你也在看吗？
+		ChatTextDaily3: 以海洋之名，我命你...我开玩笑的~
+		ChatTextDaily4: 你甚至都不愿意称呼我一声伯爵
+		ChatTextDaily5: 浪涛本自得，何故予生锁
+		ChatTextDaily6: 海洋其实比天空更高，你说对吧
+		ChatTextDaily7: 唯一的问题是...如何让其他11人也有牛仔帽
+		IntroLine1: 你果然会来这...
+		IntroAsk: 找我有什么事吗？
+		IntroLine2: 海洋会有许多生命，也应该有
+		IntroLine3: 但是物极必反，过多的生命力破坏了海洋的平衡
+		IntroLine4: 你愿意协助我调查这件事吗？关于海洋生命力爆发这件事
+		IntroOptionAgree: 可以，至于之前的事...既往不咎
+		IntroOptionReward: 有什么好处？
+		IntroOptionBlame: 既找我帮忙，为啥打我？
+		Continue: 继续
+		Accept: 好，答应你
+		IntroAnswerAgree: 真的吗？感激不尽！
+		IntroAnswerReward1: 你也不希望这片大地上长满会打人的树吧
+		IntroAnswerReward2: 事后我会给你应有的报酬的
+		IntroAnswerBlame1: 不是你召唤我的嘛？
+		IntroAnswerBlame2: 那叫...额...考验，你证明了你很强不是！
+		IntroAnswerBlame3: 我会给你报酬的
+
+		TownNPCMood: {
+			Content: 我很满足。
+			NoHome: 我讨厌没有家。
+			FarFromHome: 我离家太远了。
+			LoveSpace: 我非常喜欢有这么大的空间。
+			DislikeCrowded: 我不喜欢这么拥挤。
+			HateCrowded: 我讨厌这么拥挤。
+			LikeNPC_Princess: 我喜欢 {NPCName}。
+			Princess_LovesNPC: 我喜欢 {NPCName}。
+		}
+	}
+}
+
+Projectiles: {
+	FarSeaGridProjectile.DisplayName: 远海网格
+	FarSeaHatProjectile.DisplayName: 远海之帽
+	FarSeaJellyfishProjectile.DisplayName: 小水母
+	JinlianJellyfishProjectile.DisplayName: 水母
+	JinlianReviveVisualProjectile.DisplayName: 堇涟剪影
+	FarSeaHatLaserProjectile.DisplayName: 远海激光帽
+}
+
+Tiles.DustSandTile.MapEntry: 浊沙块
+Keybinds.RecallJinlian.DisplayName: 召回堇涟
+
+Buffs: {
+	CompanionBuff: {
+		DisplayName: 并肩作战
+		Description: 堇涟和玩家共用防御力与回血，为你抵挡伤害
+	}
+
+	GrayTrailBuff: {
+		DisplayName: 痕迹
+		Description: 你的攻击会给命中的敌人附加随机的减益
+	}
+}
